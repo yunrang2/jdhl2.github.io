@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>죽돌이의 High&Low</title>
+		<title>죽돌이의 High&Low2</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="game.css"/>
 		<script src="jquery-1.7.min.js"></script>
 	</head>
 	<body>
-		<h1>죽돌이의 High&Low</h1>
+		<h1>죽돌이의 High&Low2</h1>
 	
 		<img class="preload" src="img/cards.png"/>
 
 		<div id="card-table">
 			<button id="deal">게임시작</button>
 			<button id="open">카드확인</button>
-			<button id="reset">다시시작</button>
+			<button id="reset-choice">다시선택</button>
+			<button id="reset">다시시작</button>	
 
 			<div class="button-group" id="button-group-0">
         <button class="button high" onclick="handleUserChoice('High', 0)">High</button>
@@ -54,9 +55,6 @@
 			1. 앞면인 아래의 카드가 플레이어, 뒷면인 위쪽의 카드가 딜러.<br>
 			2. 앞면인 플레이어의 카드를 보고 순서 대로 뒷면인 딜러의 카드보다 높은지 낮은지 같은지 High Low Same 으로 선택.<br>
 			3. 카드확인 버튼을 눌러 결과를 확인.<br>
-			<br>
-			※ A는 -1, 10보다 크고 1부터 9까지의 숫자보단 작음<br>
-			  　　단,A와 0은 Same
 		<!-- load this at the bottom so the #card-table element exists -->
 		<script src="deckType.js"></script>
 		<script src="cards.js"></script>
