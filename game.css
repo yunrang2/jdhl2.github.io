@@ -14,7 +14,7 @@ body {
 	border-radius:8px; 
 	box-shadow:black 0px 0px 2px; 
 	width: 600px; 
-	background:#FFF; 
+	background:#ffffff; 
 	margin:20px auto; 
 	border:solid 1px black; 
 	font-family: 'CustomFont', sans-serif;
@@ -63,19 +63,38 @@ h1 {
 a:visited {color:blue;}
 
 #deal {
+	font-size: 22px;
+	border-radius: 10px;
+	background-color:rgb(0, 247, 255);
 	position: absolute;
 	left:450px;
 	top:170px;
 }
 
 #open {
+	font-size: 22px;
+	border-radius: 10px;
+	background-color:rgb(185, 248, 11);
 	display: none;
 	position: absolute;
 	left:450px;
-	top:170px;
+	top:190px;
+}
+
+#reset-choice {
+	font-size: 22px;
+	border-radius: 10px;
+	background-color:rgb(0, 255, 13);
+	display: none;
+	position: absolute;
+	left:450px;
+	top:120px;
 }
 
 #reset {
+	font-size: 22px;
+	border-radius: 10px;
+	background-color:rgb(255, 119, 119);
 	display: none;
 	position: absolute;
 	left:450px;
@@ -83,8 +102,8 @@ a:visited {color:blue;}
 }
 
 footer {
-	font-size : 12px;
-	color:grey;
+	font-size : 18px;
+	color:rgb(0, 0, 0);
 	margin:10px;
 }
 
@@ -97,65 +116,71 @@ footer a:hover {
 }
 
 #label-0 {
+	display: none;
 	position: absolute;
 	left: 180px;
 	top: 192px;
 }
 
 #label-1 {
-	position: absolute;
-	left: 280px;
-	top: 192px;
+ 디스플레이: 없음;
+ 위치: 절대;
+ 왼쪽: px,
+ 상단: 192 px;
 }
 
 #label-2 {
-	position: absolute;
-	left: 380px;
-	top: 192px;
+ 디스플레이: 없음;
+ 위치: 절대;
+ 좌측: px;
+ 상단: 192 px;
 }
 
-.button {
-	margin-right: 10px; /* 각 버튼 사이의 오른쪽 마진 조정 */
+.버튼 {
+ 글꼴 크기: 22 px;
+ 국경-radius: px;
+ background-color: rgb(0, 247, 255);
+ margin-right: 10px; /* 각 버튼 사이의 오른쪽 마진 조정 */
 }
 
-.button.high {
-	position: absolute;
-	left: 20px;
-	top: 250px;
+단추하이 {
+ 위치: 절대;
+ 왼쪽: 20 px;
+ 상단: 250 px;
 }
 
-.button.low {
-	position: absolute;
-	left: 20px;
-	top: 300px;
+단추낮은 {
+ 위치: 절대;
+ 왼쪽: 20 px;
+ 상단: 300 px;
 }
 
-.button.same {
-	position: absolute;
-	left: 20px;
-	top: 350px;
+.button.동일 {
+ 위치: 절대;
+ 왼쪽: 20 px;
+ 상단: px;
 }
 
 #popup {
-	display: none;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: rgba(0, 0, 0, 0.7);
-	padding: 20px;
-	border-radius: 5px;
-	color: white;
-	z-index: 9999;
+ 디스플레이: 없음;
+ 위치: 고정;
+ 상위: 50%;
+ 왼쪽: 50%;
+ 변환: 변환 (- 50%, -50%;
+ 배경색: rgba(0, 0, 0, 0.7);
+ 패딩: px;
+ 국경-radius: 5 px;
+ 색상: 흰색;
+ z-index: 9999;
 }
 
 #popup-message {
-	font-size: 18px;
+ 글꼴 크기: px;
 }
 
 .results {
-	font-size : 24px;
-	left: 20%;
-	top: 20%;
+	글꼴 크기 : 24 px;
+	왼쪽: 20%;
+ 상위: 20%;
 }
 
