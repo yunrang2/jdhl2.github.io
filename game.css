@@ -123,64 +123,64 @@ footer a:hover {
 }
 
 #label-1 {
- 디스플레이: 없음;
- 위치: 절대;
- 왼쪽: px,
- 상단: 192 px;
+	display: none;
+	position: absolute;
+	left: 280px;
+	top: 192px;
 }
 
 #label-2 {
- 디스플레이: 없음;
- 위치: 절대;
- 좌측: px;
- 상단: 192 px;
+	display: none;
+	position: absolute;
+	left: 380px;
+	top: 192px;
 }
 
-.버튼 {
- 글꼴 크기: 22 px;
- 국경-radius: px;
- background-color: rgb(0, 247, 255);
- margin-right: 10px; /* 각 버튼 사이의 오른쪽 마진 조정 */
+.button {
+	font-size: 22px;
+	border-radius: 10px;
+	background-color:rgb(0, 247, 255);
+	margin-right: 10px; /* 각 버튼 사이의 오른쪽 마진 조정 */
 }
 
-단추하이 {
- 위치: 절대;
- 왼쪽: 20 px;
- 상단: 250 px;
+.button.high {
+	position: absolute;
+	left: 20px;
+	top: 250px;
 }
 
-단추낮은 {
- 위치: 절대;
- 왼쪽: 20 px;
- 상단: 300 px;
+.button.low {
+	position: absolute;
+	left: 20px;
+	top: 300px;
 }
 
-.button.동일 {
- 위치: 절대;
- 왼쪽: 20 px;
- 상단: px;
+.button.same {
+	position: absolute;
+	left: 20px;
+	top: 350px;
 }
 
 #popup {
- 디스플레이: 없음;
- 위치: 고정;
- 상위: 50%;
- 왼쪽: 50%;
- 변환: 변환 (- 50%, -50%;
- 배경색: rgba(0, 0, 0, 0.7);
- 패딩: px;
- 국경-radius: 5 px;
- 색상: 흰색;
- z-index: 9999;
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 20px;
+	border-radius: 5px;
+	color: white;
+	z-index: 9999;
 }
 
 #popup-message {
- 글꼴 크기: px;
+	font-size: 18px;
 }
 
 .results {
-	글꼴 크기 : 24 px;
-	왼쪽: 20%;
- 상위: 20%;
+	font-size : 24px;
+	left: 20%;
+	top: 20%;
 }
 
