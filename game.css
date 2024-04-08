@@ -1,0 +1,161 @@
+@font-face {
+	font-family: 'CustomFont';
+	src: url('https://raw.githubusercontent.com/yunrang2/upload/master/학교안심몽글몽글.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html { 
+	background-color:#092E20; 
+}
+
+body { 
+	position:relative;
+	border-radius:8px; 
+	box-shadow:black 0px 0px 2px; 
+	width: 600px; 
+	background:#FFF; 
+	margin:20px auto; 
+	border:solid 1px black; 
+	font-family: 'CustomFont', sans-serif;
+	padding:50px;  
+}
+#buttons {
+	text-align:center;
+	font-family: 'CustomFont', sans-serif;
+}
+
+a img {
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	border: 0;			
+}
+button {
+	height:30px;
+	width:100px;
+	margin:8px auto;
+	font-family: 'CustomFont', sans-serif;
+}
+img.preload {
+	display:none;
+}
+h1 {
+	font-size:60px;
+	text-align:center;
+	padding:0px;
+	margin:10px auto;
+	font-family: 'CustomFont', sans-serif;
+}
+
+#card-table {
+	background-color:green;
+	height:400px;
+	width:600px;
+	border:solid 6px brown;
+	border-radius:8px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	-ms-border-radius:8px;
+	-o-border-radius:8px;
+	box-shadow:#111 1px 1px 2px;
+}
+a:visited {color:blue;}
+
+#deal {
+	position: absolute;
+	left:450px;
+	top:170px;
+}
+
+#open {
+	display: none;
+	position: absolute;
+	left:450px;
+	top:170px;
+}
+
+#reset {
+	display: none;
+	position: absolute;
+	left:450px;
+	top:170px;
+}
+
+footer {
+	font-size : 12px;
+	color:grey;
+	margin:10px;
+}
+
+footer a, footer a:visited{
+	color:grey;
+}
+
+footer a:hover {
+	color:black;
+}
+
+#label-0 {
+	position: absolute;
+	left: 180px;
+	top: 192px;
+}
+
+#label-1 {
+	position: absolute;
+	left: 280px;
+	top: 192px;
+}
+
+#label-2 {
+	position: absolute;
+	left: 380px;
+	top: 192px;
+}
+
+.button {
+	margin-right: 10px; /* 각 버튼 사이의 오른쪽 마진 조정 */
+}
+
+.button.high {
+	position: absolute;
+	left: 20px;
+	top: 250px;
+}
+
+.button.low {
+	position: absolute;
+	left: 20px;
+	top: 300px;
+}
+
+.button.same {
+	position: absolute;
+	left: 20px;
+	top: 350px;
+}
+
+#popup {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 20px;
+	border-radius: 5px;
+	color: white;
+	z-index: 9999;
+}
+
+#popup-message {
+	font-size: 18px;
+}
+
+.results {
+	font-size : 24px;
+	left: 20%;
+	top: 20%;
+}
+
